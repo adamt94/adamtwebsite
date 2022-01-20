@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+body {
+
+  position: relative;
+}
+
+.App {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #383C3F;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 56px;
+  line-height: 90px;
+  letter-spacing: -3px;
+  word-spacing: 3px;
+  font-weight: 100;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: 100;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+}
+
+.subline {
+  height: 1px;
+  background-color: #d35400;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+.sublineleft {
+  height: 1px;
+  background-color: #d35400;
+  width: 40%;
+  float: left;
+  clear: both;
+  margin-bottom: 50px;
+
+}
+
+
+@keyframes movebubbles {
+  0% {
+    top: 900px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 50px;
+  }
+}

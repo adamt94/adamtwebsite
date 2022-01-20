@@ -1,0 +1,44 @@
+.navbar {
+    padding-top: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+
+    .items {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        margin-right: 100px;
+    }
+
+
+
+    li a {
+        padding: 2rem;
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        color: #e67e22;
+    }
+
+    @media screen and (max-width: 700px) {
+        .items {
+            margin-right: unset;
+            justify-content: center;
+        }
+
+        li a {
+            padding: 0.5rem;
+        }
+    }
+
+}

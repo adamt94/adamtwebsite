@@ -1,0 +1,74 @@
+.bubblearea {
+    float: left;
+    height: 500px;
+
+    .bubble {
+
+        background: #C4DEF4;
+        border-radius: 200px;
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+        position: absolute;
+
+        @-webkit-keyframes movebubbles {
+            0% {
+                top: 900px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @-webkit-keyframes sideWays {
+            0% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 50px;
+            }
+        }
+
+        @-moz-keyframes movebubbles {
+            0% {
+                top: 900px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @-moz-keyframes sideWays {
+            0% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 50px;
+            }
+        }
+
+        @-o-keyframes movebubbles {
+            0% {
+                top: 900px;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        @-o-keyframes sideWays {
+            0% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 50px;
+            }
+        }
+    }
+
+}
