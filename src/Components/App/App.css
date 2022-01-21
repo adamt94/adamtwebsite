@@ -40,6 +40,7 @@ p {
 .App.dark {
   --background: #212121;
   --itemBackground: #26282A;
+  --itemBackgroundalt: #2e3033;
   --foreground: #313335;
   --accent: #e67e22;
   --heading: #dfdfdf;
@@ -48,9 +49,10 @@ p {
 }
 
 .App.light {
-  --background: #fff;
-  --itemBackground: #f8fafd;
-  --foreground: #e6e6e6;
+  --background: #f8fafd;
+  --itemBackground: rgb(238, 242, 248);
+  --itemBackgroundalt: rgb(238, 242, 255);
+  --foreground: rgba(0, 0, 0, 0.027);
   --accent: #e67e22;
   --heading: #383C3F;
   --text: rgb(0, 0, 0);

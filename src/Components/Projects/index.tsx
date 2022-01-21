@@ -10,7 +10,7 @@ export default function Projects() {
         <div id="projects">
             <h1>Projects</h1>
             <div className="subline" />
-            {projects.map(project => <ProjectItem {...project} />)}
+            {projects.map(project => <div className={styles.board}><ProjectItem {...project} /></div>)}
 
 
         </div>

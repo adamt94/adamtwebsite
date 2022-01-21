@@ -7,6 +7,22 @@
         "content":{},
         "icons":[{"fa": "chrome", "name":"Browser"},{"fa": "github", "name":"Github"},{"fa": "react", "name":"React"}],
         "date":{"day":"20th","month": "JAN"}
+    },
+
+    {
+        "title": "Crypto Summary",
+        "link": "playstore.com",
+        "user": "Adam Thompson",
+        "content":{},
+        "icons":[{"fa": "android", "name":"Android App"},{"fa": "github", "name":"Github"},{"fa": "code", "name":"Flutter"}],
+        "date":{"day":"20th","month": "JAN"}
+    }, {
+        "title": "Crypto Summary",
+        "link": "playstore.com",
+        "user": "Adam Thompson",
+        "content":{},
+        "icons":[{"fa": "android", "name":"Android App"},{"fa": "github", "name":"Github"},{"fa": "code", "name":"Flutter"}],
+        "date":{"day":"20th","month": "JAN"}
     }]
     
     

@@ -6,19 +6,20 @@ import NavBar from '../NavBar';
 import Bubbles from '../Bubbles';
 import Intro from '../Intro';
 import Projects from '../Projects';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faChrome, faGithub, faReact } from '@fortawesome/free-brands-svg-icons';
-library.add(faChrome, faGithub, faReact);
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faChrome, faGithub, faReact, faAndroid, } from '@fortawesome/free-brands-svg-icons';
+library.add(faChrome, faGithub, faReact, faAndroid, faCode);
 
 function App() {
   //so css theme can be applied from body tag
   React.useEffect(() => {
     const body = document.querySelector("body");
     document.body.classList.add("App");
-    document.body.classList.add("light");
+    document.body.classList.add("dark");
     return () => {
       body?.classList.remove("App");
-      body?.classList.remove("light");
+      body?.classList.remove("dark");
     }
   });
   return (
