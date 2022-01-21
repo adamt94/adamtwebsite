@@ -5,6 +5,7 @@ body {
   margin: 0px;
   height: 100%;
   overflow-x: hidden;
+  background-color: var(--background, #212121);
 
 }
 
@@ -26,8 +27,37 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1,
+h2 {
+  color: var(--heading)
+}
+
+a,
+p {
+  color: var(--text)
+}
+
+.App.dark {
+  --background: #212121;
+  --itemBackground: #26282A;
+  --foreground: #313335;
+  --accent: #e67e22;
+  --heading: #dfdfdf;
+  --text: #fff;
+
+}
+
+.App.light {
+  --background: #fff;
+  --itemBackground: #f8fafd;
+  --foreground: #e6e6e6;
+  --accent: #e67e22;
+  --heading: #383C3F;
+  --text: rgb(0, 0, 0);
+
+}
+
 h1 {
-  color: #383C3F;
   text-transform: uppercase;
   text-align: center;
   font-size: 56px;
@@ -38,7 +68,6 @@ h1 {
 }
 
 h2 {
-  color: white;
   text-transform: uppercase;
   text-align: center;
   font-size: 36px;
@@ -49,13 +78,9 @@ h2 {
   margin: 0;
 }
 
-h2 {
-  color: white;
-}
-
 .subline {
   height: 1px;
-  background-color: #d35400;
+  background-color: var(--accent);
   width: 150px;
   margin-left: auto;
   margin-right: auto;
@@ -64,7 +89,7 @@ h2 {
 
 .sublineleft {
   height: 1px;
-  background-color: #d35400;
+  background-color: var(--accent);
   width: 40%;
   float: left;
   clear: both;
