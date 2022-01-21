@@ -6,6 +6,9 @@ import NavBar from '../NavBar';
 import Bubbles from '../Bubbles';
 import Intro from '../Intro';
 import Projects from '../Projects';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faChrome, faGithub, faReact } from '@fortawesome/free-brands-svg-icons';
+library.add(faChrome, faGithub, faReact);
 
 function App() {
   //so css theme can be applied from body tag
