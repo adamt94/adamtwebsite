@@ -4,8 +4,8 @@
         "title": "v-share",
         "link": "www.v-share.tv",
         "user": "Adam Thompson",
-        "content":{},
-        "icons":[{"fa": "chrome", "name":"Browser"},{"fa": "github", "name":"Github"},{"fa": "react", "name":"React"}],
+        "content":"<p><b>V-share</b> is a website that allows people to watch youtube videos together. A user can create a lobby, search and play youtube videos within a lobby, users can then join the lobby from other devices and the videos will be insync across devices.</p><p><h3>Features</h3><ul><li>Chat Box</li><li>Video syncing (play, pause, seek)</li><li>Video Queue</li><li>Youtube search</li></ul></p><p>Techstack Frontend: React, Redux, MaterialUI, Styled Components Backend: Graphql, AWS, dynamoDb, Youtube API, Twitch API</p><img src='./v-share-screenshot1.png' width='100%'/>",
+        "icons":[{"fa": "chrome", "name":"Browser","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "react", "name":"React", "key":"fab"}],
         "date":{"day":"20th","month": "JAN"}
     },
 
@@ -13,15 +13,15 @@
         "title": "Crypto Summary",
         "link": "playstore.com",
         "user": "Adam Thompson",
-        "content":{},
-        "icons":[{"fa": "android", "name":"Android App"},{"fa": "github", "name":"Github"},{"fa": "code", "name":"Flutter"}],
+        "content":"",
+        "icons":[{"fa": "android", "name":"Android App","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "code", "name":"Flutter","key":"fas"}],
         "date":{"day":"20th","month": "JAN"}
     }, {
         "title": "Crypto Summary",
         "link": "playstore.com",
         "user": "Adam Thompson",
-        "content":{},
-        "icons":[{"fa": "android", "name":"Android App"},{"fa": "github", "name":"Github"},{"fa": "code", "name":"Flutter"}],
+        "content":"",
+        "icons":[{"fa": "android", "name":"Android App","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "code", "name":"Flutter","key":"fas"}],
         "date":{"day":"20th","month": "JAN"}
     }]
     

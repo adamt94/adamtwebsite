@@ -8,8 +8,8 @@ import Intro from '../Intro';
 import Projects from '../Projects';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { faChrome, faGithub, faReact, faAndroid, } from '@fortawesome/free-brands-svg-icons';
-library.add(faChrome, faGithub, faReact, faAndroid, faCode);
+import { faChrome, faGithub, faReact, faAndroid } from '@fortawesome/free-brands-svg-icons';
+library.add(faChrome, faGithub, faReact, faAndroid, faCode,);
 
 function App() {
   //so css theme can be applied from body tag
