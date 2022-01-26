@@ -6,7 +6,7 @@ export default function Intro() {
         <div id="about">
             <h1>About</h1>
             <div className="subline"></div>
-            <p>A Graduate from University of East Anglia. Acheived a first In Computer Science Bsc</p>
+            <p> A Graduate from University of East Anglia. Acheived a first In Computer Science Bsc </p>
 
         </div>
     );
