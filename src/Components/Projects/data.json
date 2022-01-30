@@ -13,17 +13,10 @@
         "title": "Crypto Summary",
         "link": "playstore.com",
         "user": "Adam Thompson",
-        "content":"",
-        "icons":[{"fa": "android", "name":"Android App","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "code", "name":"Flutter","key":"fas"}],
-        "date":{"day":"20th","month": "JAN"}
-    }, {
-        "title": "Crypto Summary",
-        "link": "playstore.com",
-        "user": "Adam Thompson",
-        "content":"",
+        "content":"<p><b>Crypto Summary</b> is a android app built using flutter. It is an app for tracking the prices of cryptocurrencies, each coin has its own graph and price information in real time.</p><p<h3>Features</h3><ul><li>200+ crpytocurrencies</li><li>search bar</li><li>favourite list</li><li>Unique color coin themes</li></ul></p><p>Built using flutter, Dart programming language, using coingecko api</p><img src='./crypto-summary.gif' width='250px'/>",
         "icons":[{"fa": "android", "name":"Android App","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "code", "name":"Flutter","key":"fas"}],
         "date":{"day":"20th","month": "JAN"}
     }]
     
     
-}
+} 

@@ -28,11 +28,14 @@
         text-align: left;
         color: var(--text);
 
+
+
         .heading {
             display: flex;
             align-items: center;
             white-space: nowrap;
             overflow: hidden;
+            flex-flow: wrap;
             gap: 10px;
 
             h2 {
@@ -51,6 +54,10 @@
 
     .dateboard {
         width: 320px;
+
+        @media screen and (max-width: 580px) {
+            display: none;
+        }
 
         .date {
             position: relative;

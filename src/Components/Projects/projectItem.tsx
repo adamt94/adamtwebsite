@@ -50,8 +50,13 @@ export default function ProjectItem({ title, link, user, content, icons, date }:
 
             </div >
             <div className={styles.content}>
-                <div className={styles.heading}><h2>{title}</h2> <a href={link}><FontAwesomeIcon icon={faLink} size="1x" /> {link}</a></div>
-                <div className="sublineleft"></div>
+                <div className={styles.heading}>
+                    <div className={styles.title}>
+                        <h2>{title}</h2>
+                        <div className="sublineleft" />
+                    </div>
+                    <a href={link}><FontAwesomeIcon icon={faLink} size="1x" /> {link}</a>
+                </div>
                 <div className={styles.details} dangerouslySetInnerHTML={{ __html: content }}></div>
             </div>
 
