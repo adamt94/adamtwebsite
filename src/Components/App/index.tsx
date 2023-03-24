@@ -6,10 +6,28 @@ import NavBar from '../NavBar';
 import Bubbles from '../Bubbles';
 import Intro from '../Intro';
 import Projects from '../Projects';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
-import { faChrome, faGithub, faReact, faAndroid } from '@fortawesome/free-brands-svg-icons';
-library.add(faChrome, faGithub, faReact, faAndroid, faCode,);
+import {
+  IconDefinition,
+  IconPack,
+  library,
+} from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChrome,
+  faGithub,
+  faReact,
+  faAndroid,
+} from "@fortawesome/free-brands-svg-icons";
+import Experience from "../Experience";
+
+//this doesn't make sense why have to add as 'type'
+library.add(
+  fas as IconPack,
+  faChrome as IconDefinition,
+  faGithub as IconDefinition,
+  faReact as IconDefinition,
+  faAndroid as IconDefinition
+);
 
 function App() {
   //so css theme can be applied from body tag
@@ -28,8 +46,8 @@ function App() {
       <NavBar />
       <Bubbles />
       <Intro />
+      <Experience />
       <Projects />
-
     </div>
   );
 }

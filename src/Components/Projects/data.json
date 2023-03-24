@@ -1,22 +1,29 @@
 {
-
-    "projects":[{
-        "title": "v-share",
-        "link": "www.v-share.tv",
-        "user": "Adam Thompson",
-        "content":"<p><b>V-share</b> is a website that allows people to watch youtube videos together. A user can create a lobby, search and play youtube videos within a lobby, users can then join the lobby from other devices and the videos will be insync across devices.</p><p><h3>Features</h3><ul><li>Chat Box</li><li>Video syncing (play, pause, seek)</li><li>Video Queue</li><li>Youtube search</li></ul></p><p>Techstack Frontend: React, Redux, MaterialUI, Styled Components Backend: Graphql, AWS, dynamoDb, Youtube API, Twitch API</p><img src='./v-share-screenshot1.png' width='100%'/>",
-        "icons":[{"fa": "chrome", "name":"Browser","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "react", "name":"React", "key":"fab"}],
-        "date":{"day":"20th","month": "JAN"}
+  "projects": [
+    {
+      "title": "v-share",
+      "link": "www.v-share.tv",
+      "user": "Adam Thompson",
+      "content": "<p><b>V-share</b> is a website that allows people to watch youtube videos together. A user can create a lobby, search and play youtube videos within a lobby, users can then join the lobby from other devices and the videos will be insync across devices.</p><p><h3>Features</h3><ul><li>Chat Box</li><li>Video syncing (play, pause, seek)</li><li>Video Queue</li><li>Youtube search</li></ul></p><p>Techstack Frontend: React, Redux, MaterialUI, Styled Components Backend: Graphql, AWS, dynamoDb, Youtube API, Twitch API</p><img src='./v-share-screenshot1.png' width='100%'/>",
+      "icons": [
+        { "fa": "chrome", "name": "Browser", "key": "fab" },
+        { "fa": "github", "name": "Github", "key": "fab" },
+        { "fa": "react", "name": "React", "key": "fab" }
+      ],
+      "date": { "day": "20th", "month": "JAN" }
     },
 
     {
-        "title": "Crypto Summary",
-        "link": "playstore.com",
-        "user": "Adam Thompson",
-        "content":"<p><b>Crypto Summary</b> is a android app built using flutter. It is an app for tracking the prices of cryptocurrencies, each coin has its own graph and price information in real time.</p><p<h3>Features</h3><ul><li>200+ crpytocurrencies</li><li>search bar</li><li>favourite list</li><li>Unique color coin themes</li></ul></p><p>Built using flutter, Dart programming language, using coingecko api</p><img src='./crypto-summary.gif' width='250px'/>",
-        "icons":[{"fa": "android", "name":"Android App","key":"fab"},{"fa": "github", "name":"Github","key":"fab"},{"fa": "code", "name":"Flutter","key":"fas"}],
-        "date":{"day":"20th","month": "JAN"}
-    }]
-    
-    
-} 
+      "title": "Crypto Summary",
+      "link": "playstore.com",
+      "user": "Adam Thompson",
+      "content": "<p><b>Crypto Summary</b> is a android app built using flutter. It is an app for tracking the prices of cryptocurrencies, each coin has its own graph and price information in real time.</p><p<h3>Features</h3><ul><li>200+ crpytocurrencies</li><li>search bar</li><li>favourite list</li><li>Unique color coin themes</li></ul></p><p>Built using flutter, Dart programming language, using coingecko api</p><img src='./crypto-summary.gif' width='250px'/>",
+      "icons": [
+        { "fa": "android", "name": "Android App", "key": "fab" },
+        { "fa": "github", "name": "Github", "key": "fab" },
+        { "fa": "code", "name": "Flutter", "key": "fas" }
+      ],
+      "date": { "day": "20th", "month": "JAN" }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+.about {
+    max-width: 43rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    span {
+        color: var(--md-sys-color-primary);
+    }
+}
+
+
+.tech {
+    margin-top: 150px;
+}
+
+.codeItems {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+
+    .codeItems:nth-child(even) {
+        gap: 2rem;
+    }
+
+    .codeStackItem {
+        display: flex;
+        align-items: center;
+        border-radius: 1rem;
+        width: 158px;
+        height: 150px;
+        background-color: var(--md-sys-color-tertiary-container);
+
+        .leftContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 90%;
+            justify-content: space-around;
+            margin: 0.5rem;
+
+            .icon {
+                font-size: 1.875rem;
+                color: var(--md-sys-color-on-tertiary-container)
+            }
+
+            .name {
+                font-size: 0.8rem;
+                font-weight: bold;
+                margin: 0;
+                color: var(--md-sys-color-on-tertiary-container)
+            }
+
+        }
+
+        .value {
+            font-size: 0.7rem;
+            margin: 0.5rem;
+            color: var(--md-sys-color-on-tertiary-container)
+        }
+    }
+}
