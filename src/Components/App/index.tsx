@@ -45,9 +45,14 @@ function App() {
       <Header />
       <NavBar />
       <Bubbles />
-      <Intro />
-      <Experience />
-      <Projects />
+
+      <div className="background">
+        <div className="pageWrapper">
+          <Intro />
+          <Experience />
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }

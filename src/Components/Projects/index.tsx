@@ -7,7 +7,7 @@ export default function Projects() {
   const projects = data.projects;
   return (
     <div id="projects">
-      <h1>Projects</h1>
+      <h1 className="display-small secondary-text">Projects</h1>
       <div className="subline" />
       {projects.map((project) => (
         <div className={styles.board}>

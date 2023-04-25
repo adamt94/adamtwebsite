@@ -11,19 +11,13 @@ import {
   faCogs,
   faTerminal,
 } from "@fortawesome/free-solid-svg-icons";
+import Overview from "./Overview";
 
 export default function Intro() {
   return (
-    <div id="about" className={styles.about}>
-      <h1>About</h1>
-      <div className="subline"></div>
-      <p>
-        {" "}
-        Software engineer bulding things for the web. Currently building a new
-        cms using typescript, graphql, remix, react, at{" "}
-        <span>SmartPension.</span>{" "}
-      </p>
-      <section className={styles.tech}>
+    <section id="about" className={styles.about}>
+      <Overview />
+      <div className={styles.tech}>
         <div className={styles.codeItems}>
           <CodeStackItem
             icon={
@@ -92,7 +86,7 @@ export default function Intro() {
             value={"Github Actions, Jenkins, Gitlab CI, Aws CodePipeline"}
           />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }

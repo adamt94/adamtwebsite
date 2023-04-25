@@ -1,13 +1,14 @@
 @import url(css/tokens.css);
 @import url(css/colors.module.css);
 @import url(css/typography.module.css);
-@import url(css/theme.light.css) (prefers-color-scheme: light);
+@import url(css/theme.dark.css) (prefers-color-scheme: light);
 @import url(css/theme.dark.css) (prefers-color-scheme: dark);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

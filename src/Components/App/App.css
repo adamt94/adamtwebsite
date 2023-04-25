@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 
 html,
 body {
   margin: 0px;
   height: 100%;
   overflow-x: hidden;
-  background-color: var(--md-sys-color-surface);
+  background-color: black;
 }
 
 body {
@@ -16,15 +16,18 @@ body {
   text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-a,
-p {
-  font-family: "Open Sans", sans-serif;
+.pageWrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 0 20px;
+  position: relative;
+  min-height: 100vh;
 }
 
+.background {
+  background: linear-gradient(to bottom, #121226, black);
+}
 h1,
 h2 {
   color: var(--md-sys-color-on-surface-variant);
@@ -35,46 +38,6 @@ p {
   color: var(--md-sys-color-on-surface);
 }
 
-.App.dark {
-  --background: #212121;
-  --itemBackground: #26282a;
-  --itemBackgroundalt: #2e3033;
-  --foreground: #313335;
-  --accent: #e67e22;
-  --heading: #dfdfdf;
-  --text: #fff;
-}
-
-.App.light {
-  --background: #f8fafd;
-  --itemBackground: rgb(238, 242, 248);
-  --itemBackgroundalt: rgb(238, 242, 255);
-  --foreground: rgba(0, 0, 0, 0.027);
-  --accent: #e67e22;
-  --heading: #383c3f;
-  --text: rgb(0, 0, 0);
-}
-
-h1 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 56px;
-  line-height: 90px;
-  letter-spacing: -3px;
-  word-spacing: 3px;
-  font-weight: 100;
-}
-
-h2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 36px;
-  line-height: 80px;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  font-weight: 100;
-  margin: 0;
-}
 
 .subline {
   height: 1px;
@@ -82,7 +45,7 @@ h2 {
   width: 150px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 90px;
+  margin-bottom: 10px;
 }
 
 .sublineleft {

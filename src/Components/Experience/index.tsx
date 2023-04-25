@@ -5,13 +5,13 @@ export default function Experience() {
   const year = date.getFullYear();
   const month = date.toLocaleString("default", { month: "long" });
   return (
-    <section id="experience" className={styles.experience}>
-      <h1>Experience</h1>
+    <section id="experience" className="my-20">
+      <h1 className="display-medium secondary-text">Experience</h1>
       <div className="subline"></div>
-      <p>
-        <h2>Front End Engineer</h2>
-        <h3>Smart Pension</h3>
-        <p>
+      <div className="px-2 py-5">
+        <h2 className="display-small">Front End Engineer</h2>
+        <h3 className="headline-small primary-text">Smart Pension</h3>
+        <p className="title-small secondary-text">
           September 2022 to {month} {year}
         </p>
         <p>
@@ -20,11 +20,13 @@ export default function Experience() {
           applications. Built for over 77000 companies, allowing users to access
           all there pension information in one place.
         </p>
-      </p>
-      <p>
-        <h2>Mid Software Engineer</h2>
-        <h3>BBC Global News</h3>
-        <p>August 2021 to September 2022</p>
+      </div>
+      <div className="px-2 py-5">
+        <h2 className="display-small">Mid Software Engineer</h2>
+        <h3 className="headline-small primary-text">BBC Global News</h3>
+        <p className="title-small secondary-text">
+          August 2021 to September 2022
+        </p>
         <p>
           During the time a BBC I moved up to a mid-level engineer and also
           worked some newer projects. One of the projects was to build modern
@@ -34,11 +36,13 @@ export default function Experience() {
           looking article pages they could use to show off their product or
           content.
         </p>
-      </p>
-      <p>
-        <h2>Junior Software Engineer</h2>
-        <h3>BBC Global News</h3>
-        <p>January 2021 to August 2021</p>
+      </div>
+      <div className="px-2 py-5">
+        <h2 className="display-small">Junior Software Engineer</h2>
+        <h3 className="headline-small primary-text">BBC Global News</h3>
+        <p className="title-small secondary-text">
+          January 2021 to August 2021
+        </p>
         <p>
           Working on a wide variety of projects and tech stacks (legacy and
           modern) built for millions of users. Succesfully released BBC travel,
@@ -47,11 +51,11 @@ export default function Experience() {
           short documentary platform for readers to help look beyond their
           world.
         </p>
-      </p>
-      <p>
-        <h2>Software Engineer</h2>
-        <h3>CloudIQ</h3>
-        <p>2018 to 2021</p>
+      </div>
+      <div className="px-2 py-5">
+        <h2 className="display-small">Software Engineer</h2>
+        <h3 className="headline-small primary-text">CloudIQ</h3>
+        <p className="title-small secondary-text">2018 to 2021</p>
         <p>
           Worked on legacy platform which invloved building custom emails and
           overlays for many clients such as PetsAtHome, EE, TUI and deploying
@@ -61,7 +65,7 @@ export default function Experience() {
           that allowed clients to view there data and create emails and overlays
           for their site.
         </p>
-      </p>
+      </div>
     </section>
   );
 }
