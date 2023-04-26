@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import styles from "./index.module.scss";
 
 type CodeStackItemProps = {
@@ -6,19 +7,39 @@ type CodeStackItemProps = {
   value: string;
 };
 
+const textAnimate = {
+  offscreen: { y: 20, opacity: 0 },
+  onscreen: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring", bounce: 0.2, duration: 3 },
+  },
+};
+
 export default function codeStackItem({
   icon,
   name,
   value,
 }: CodeStackItemProps) {
   return (
-    <div className={styles.codeStackItem}>
+    <motion.div
+      transition={{ staggerChildren: 0.4 }}
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      className={styles.codeStackItem}
+    >
       <div className={styles.leftContainer}>
-        <p className={styles.name}>{name}</p>
+        <motion.p variants={textAnimate} className={styles.name}>
+          {name}
+        </motion.p>
 
-        <p className={styles.value}>{value}</p>
-        <div className={styles.icon}>{icon}</div>
+        <motion.p variants={textAnimate} className={styles.value}>
+          {value}
+        </motion.p>
+        <motion.div variants={textAnimate} className={styles.icon}>
+          {icon}
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 }
