@@ -12,7 +12,7 @@ const textAnimate = {
   onscreen: {
     opacity: 1,
     y: 0,
-    transition: { type: "spring", bounce: 0.2, duration: 3 },
+    transition: { type: "spring", bounce: 0.2, duration: 2 },
   },
 };
 
@@ -23,7 +23,7 @@ export default function codeStackItem({
 }: CodeStackItemProps) {
   return (
     <motion.div
-      transition={{ staggerChildren: 0.4 }}
+      transition={{ staggerChildren: 0.3 }}
       initial={"offscreen"}
       whileInView={"onscreen"}
       className={styles.codeStackItem}

@@ -1,14 +1,32 @@
+import { motion } from "framer-motion";
 import styles from "./index.module.scss";
+
+const textAnimate = {
+  offscreen: { y: 100, opacity: 0 },
+  onscreen: {
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring", bounce: 0.4, duration: 1.5 },
+  },
+};
 
 export default function Experience() {
   const date = new Date();
   const year = date.getFullYear();
   const month = date.toLocaleString("default", { month: "long" });
   return (
-    <section id="experience" className="my-20">
-      <h1 className="display-medium secondary-text">Experience</h1>
-      <div className="subline"></div>
-      <div className="px-2 py-5">
+    <motion.section
+      transition={{ staggerChildren: 0.2 }}
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      id="experience"
+      className="my-20"
+    >
+      <motion.div variants={textAnimate}>
+        <h1 className="display-medium secondary-text">Experience</h1>
+        <div className="subline"></div>
+      </motion.div>
+      <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Front End Engineer</h2>
         <h3 className="headline-small primary-text">Smart Pension</h3>
         <p className="title-small secondary-text">
@@ -20,8 +38,8 @@ export default function Experience() {
           applications. Built for over 77000 companies, allowing users to access
           all there pension information in one place.
         </p>
-      </div>
-      <div className="px-2 py-5">
+      </motion.div>
+      <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Mid Software Engineer</h2>
         <h3 className="headline-small primary-text">BBC Global News</h3>
         <p className="title-small secondary-text">
@@ -36,8 +54,8 @@ export default function Experience() {
           looking article pages they could use to show off their product or
           content.
         </p>
-      </div>
-      <div className="px-2 py-5">
+      </motion.div>
+      <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Junior Software Engineer</h2>
         <h3 className="headline-small primary-text">BBC Global News</h3>
         <p className="title-small secondary-text">
@@ -51,8 +69,8 @@ export default function Experience() {
           short documentary platform for readers to help look beyond their
           world.
         </p>
-      </div>
-      <div className="px-2 py-5">
+      </motion.div>
+      <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Software Engineer</h2>
         <h3 className="headline-small primary-text">CloudIQ</h3>
         <p className="title-small secondary-text">2018 to 2021</p>
@@ -65,7 +83,7 @@ export default function Experience() {
           that allowed clients to view there data and create emails and overlays
           for their site.
         </p>
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }

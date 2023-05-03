@@ -3,13 +3,18 @@
     {
       "title": "v-share",
       "link": "www.v-share.tv",
+      "image": "https://imagesampler-s3uploadbucket-13dxin31bn6xs.s3.eu-west-2.amazonaws.com/v-share-default.png",
       "user": "Adam Thompson",
-      "content": "<p><b>V-share</b> is a website that allows people to watch youtube videos together. A user can create a lobby, search and play youtube videos within a lobby, users can then join the lobby from other devices and the videos will be insync across devices.</p><p><h3>Features</h3><ul><li>Chat Box</li><li>Video syncing (play, pause, seek)</li><li>Video Queue</li><li>Youtube search</li></ul></p><p>Techstack Frontend: React, Redux, MaterialUI, Styled Components Backend: Graphql, AWS, dynamoDb, Youtube API, Twitch API</p><img src='./v-share-screenshot1.png' width='100%'/>",
-      "icons": [
-        { "fa": "chrome", "name": "Browser", "key": "fab" },
-        { "fa": "github", "name": "Github", "key": "fab" },
-        { "fa": "react", "name": "React", "key": "fab" }
+      "content": "Website that lets you watch youtube videos together with friends and chat.",
+      "techStack": [
+        "React",
+        "Typescript",
+        "GraphQl",
+        "Websockets",
+        "MaterialUi",
+        "tailwindcss"
       ],
+      "icons": [{ "fa": "chrome", "name": "Browser", "key": "fab" }],
       "date": { "day": "20th", "month": "JAN" }
     },
 
@@ -17,12 +22,36 @@
       "title": "Crypto Summary",
       "link": "playstore.com",
       "user": "Adam Thompson",
-      "content": "<p><b>Crypto Summary</b> is a android app built using flutter. It is an app for tracking the prices of cryptocurrencies, each coin has its own graph and price information in real time.</p><p<h3>Features</h3><ul><li>200+ crpytocurrencies</li><li>search bar</li><li>favourite list</li><li>Unique color coin themes</li></ul></p><p>Built using flutter, Dart programming language, using coingecko api</p><img src='./crypto-summary.gif' width='250px'/>",
-      "icons": [
-        { "fa": "android", "name": "Android App", "key": "fab" },
-        { "fa": "github", "name": "Github", "key": "fab" },
-        { "fa": "code", "name": "Flutter", "key": "fas" }
-      ],
+      "content": "Android app that displays the current price and overview of 1000s cryptocurrencies.",
+      "techStack": ["Flutter", "Dart", "CoinGecko API"],
+      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
+      "date": { "day": "20th", "month": "JAN" }
+    },
+    {
+      "title": "SplitTheBill",
+      "link": "playstore.com",
+      "user": "Adam Thompson",
+      "content": "Android app take a photo of a receipt and splits the bill between friends.",
+      "techStack": ["Flutter", "Dart", "AWS textract", "AWS Lambda"],
+      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
+      "date": { "day": "20th", "month": "JAN" }
+    },
+    {
+      "title": "Recipe App",
+      "link": "playstore.com",
+      "user": "Adam Thompson",
+      "content": "Android app that lets you create food recipes and save them",
+      "techStack": ["Flutter", "Dart"],
+      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
+      "date": { "day": "20th", "month": "JAN" }
+    },
+    {
+      "title": "Maze Game",
+      "link": "playstore.com",
+      "user": "Adam Thompson",
+      "content": "A game that lets you navigate mazes using the Logo promgramming language",
+      "techStack": ["HTML", "CSS", "Javascript"],
+      "icons": [{ "fa": "chrome", "name": "Browser", "key": "fab" }],
       "date": { "day": "20th", "month": "JAN" }
     }
   ]
