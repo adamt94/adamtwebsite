@@ -7,6 +7,7 @@ interface CardProps {
   description: string;
   features?: string[];
   icons: ReactNode[];
+  href?: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -15,6 +16,7 @@ const Card: React.FC<CardProps> = ({
   description,
   features = [],
   icons = [],
+  href = "",
 }) => {
   return (
     <motion.div
@@ -45,9 +47,12 @@ const Card: React.FC<CardProps> = ({
           ))}
         </div>
         <div className="flex flex-row justify-end p-5 primary-text flex-shrink">
-          <button className="inline-block tertiary rounded-full px-3 py-1 text-sm font-semibold on-tertiary-text mr-2 mb-2">
+          <a
+            href={href}
+            className="inline-block tertiary rounded-full px-3 py-1 text-sm font-semibold on-tertiary-text mr-2 mb-2"
+          >
             Go to site
-          </button>
+          </a>
         </div>
       </div>
     </motion.div>

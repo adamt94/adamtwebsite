@@ -26,6 +26,7 @@ export default function Projects() {
               />
             ))}
             features={project.techStack}
+            href={project.link}
           />
         ))}
       </div>
