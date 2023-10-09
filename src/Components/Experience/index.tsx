@@ -30,7 +30,7 @@ export default function Experience() {
         <h2 className="display-small">Front End Engineer</h2>
         <h3 className="headline-small primary-text">Smart Pension</h3>
         <p className="title-small secondary-text">
-          September 2022 to {month} {year}
+          August 2022 to {month} {year}
         </p>
         <p>
           Front end developer working on a new CMS using modern web technologies
@@ -73,7 +73,7 @@ export default function Experience() {
       <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Software Engineer</h2>
         <h3 className="headline-small primary-text">CloudIQ</h3>
-        <p className="title-small secondary-text">2018 to 2021</p>
+        <p className="title-small secondary-text">2017 to 2021</p>
         <p>
           Worked on legacy platform which invloved building custom emails and
           overlays for many clients such as PetsAtHome, EE, TUI and deploying
