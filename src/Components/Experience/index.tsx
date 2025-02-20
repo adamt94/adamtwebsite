@@ -27,11 +27,24 @@ export default function Experience() {
         <div className="subline"></div>
       </motion.div>
       <motion.div variants={textAnimate} className="px-2 py-5">
+        <h2 className="display-small">Senior Software Engineer</h2>
+        <h3 className="headline-small primary-text">PrettyLittleThing</h3>
+        <p className="title-small secondary-text">
+          October 2024 to {month} {year}
+        </p>
+        <p>
+          Worked on building a new Design System used on Prettylittlething
+          website and expanding that out across all the other domains at Bohoo
+          such as BoohooMan. Allowing resuable components accross fashion based
+          websites and flexbility to different branding and designs of each
+          domain. Building,improving and maintaing prettylething website.
+        </p>
+      </motion.div>
+
+      <motion.div variants={textAnimate} className="px-2 py-5">
         <h2 className="display-small">Front End Engineer</h2>
         <h3 className="headline-small primary-text">Smart Pension</h3>
-        <p className="title-small secondary-text">
-          August 2022 to {month} {year}
-        </p>
+        <p className="title-small secondary-text">August 2022 to May 2024</p>
         <p>
           Front end developer working on a new CMS using modern web technologies
           such as React, Graphql and Remix. Built for desktop and mobile

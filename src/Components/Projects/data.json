@@ -1,6 +1,54 @@
 {
   "projects": [
     {
+      "title": "SplitTheBill",
+      "link": "https://play.google.com/store/apps/details?id=com.adamtdev.splitthebillnative",
+      "image": "https://imagesampler-s3uploadbucket-13dxin31bn6xs.s3.eu-west-2.amazonaws.com/split-bill-logo.png",
+      "user": "Adam Thompson",
+      "content": "App that lets you take a photo of a receipt and uses AI to capture the items, so you can split the bill between friends.",
+      "techStack": [
+        "React Native",
+        "Typescript",
+        "Tamagui",
+        "Expo"
+      ],
+      "icons": [
+        {
+          "fa": "android",
+          "name": "Android App",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "15th",
+        "month": "FEB"
+      }
+    },
+    {
+      "title": "Qreator",
+      "link": "https://play.google.com/store/apps/details?id=com.adamtdev.qreator",
+      "image": "https://play-lh.googleusercontent.com/qAKRA3OxMTsW1GjSxuYi1AYXkvC6E4jE0baFnIk6y7i-iuQbPsvxn-cPiFEW_6PPWTkz=w2560-h1440-rw",
+      "user": "Adam Thompson",
+      "content": "A app that lets you create QR codes for your business cards, websites, and social media.",
+      "techStack": [
+        "React Native",
+        "Typescript",
+        "Tamagui",
+        "Expo"
+      ],
+      "icons": [
+        {
+          "fa": "android",
+          "name": "Android App",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "10th",
+        "month": "FEB"
+      }
+    },
+    {
       "title": "v-share",
       "link": "www.v-share.tv",
       "image": "https://imagesampler-s3uploadbucket-13dxin31bn6xs.s3.eu-west-2.amazonaws.com/v-share-default.png",
@@ -14,45 +62,105 @@
         "MaterialUi",
         "tailwindcss"
       ],
-      "icons": [{ "fa": "chrome", "name": "Browser", "key": "fab" }],
-      "date": { "day": "20th", "month": "JAN" }
+      "icons": [
+        {
+          "fa": "chrome",
+          "name": "Browser",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "20th",
+        "month": "JAN"
+      }
     },
-
     {
       "title": "Crypto Summary",
       "link": "playstore.com",
       "user": "Adam Thompson",
       "content": "Android app that displays the current price and overview of 1000s cryptocurrencies.",
-      "techStack": ["Flutter", "Dart", "CoinGecko API"],
-      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
-      "date": { "day": "20th", "month": "JAN" }
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "CoinGecko API"
+      ],
+      "icons": [
+        {
+          "fa": "android",
+          "name": "Android App",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "20th",
+        "month": "JAN"
+      }
     },
     {
       "title": "SplitTheBill",
       "link": "playstore.com",
       "user": "Adam Thompson",
       "content": "Android app take a photo of a receipt and splits the bill between friends.",
-      "techStack": ["Flutter", "Dart", "AWS textract", "AWS Lambda"],
-      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
-      "date": { "day": "20th", "month": "JAN" }
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "AWS textract",
+        "AWS Lambda"
+      ],
+      "icons": [
+        {
+          "fa": "android",
+          "name": "Android App",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "20th",
+        "month": "JAN"
+      }
     },
     {
       "title": "Recipe App",
       "link": "playstore.com",
       "user": "Adam Thompson",
       "content": "Android app that lets you create food recipes and save them",
-      "techStack": ["Flutter", "Dart"],
-      "icons": [{ "fa": "android", "name": "Android App", "key": "fab" }],
-      "date": { "day": "20th", "month": "JAN" }
+      "techStack": [
+        "Flutter",
+        "Dart"
+      ],
+      "icons": [
+        {
+          "fa": "android",
+          "name": "Android App",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "20th",
+        "month": "JAN"
+      }
     },
     {
       "title": "Maze Game",
       "link": "playstore.com",
       "user": "Adam Thompson",
       "content": "A game that lets you navigate mazes using the Logo promgramming language",
-      "techStack": ["HTML", "CSS", "Javascript"],
-      "icons": [{ "fa": "chrome", "name": "Browser", "key": "fab" }],
-      "date": { "day": "20th", "month": "JAN" }
+      "techStack": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "icons": [
+        {
+          "fa": "chrome",
+          "name": "Browser",
+          "key": "fab"
+        }
+      ],
+      "date": {
+        "day": "20th",
+        "month": "JAN"
+      }
     }
   ]
 }

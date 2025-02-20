@@ -29,7 +29,7 @@ export default function Overview() {
           variants={textAnimate}
         >
           Software engineer bulding interesting things for the web. Currently
-          working at <span className="primary-text">Smart Pension.</span>
+          working at <span className="primary-text">PrettyLittleThing.</span>
         </motion.p>
       </div>
       <div className="hidden sm:block">

@@ -20,7 +20,7 @@ const stackData = [
       <FontAwesomeIcon icon={faWindowMaximize as IconDefinition} size={"xs"} />
     ),
     name: "Web Frameworks",
-    value: "React, Remix, Next, GraphQl, Redux, Node, flutter web",
+    value: "React, Remix, NextJs, GraphQl, Node, React Native, flutter",
   },
   {
     icon: <FontAwesomeIcon icon={faCode as IconDefinition} size={"xs"} />,
@@ -31,7 +31,7 @@ const stackData = [
     icon: <FontAwesomeIcon icon={faPencilAlt as IconDefinition} size={"xs"} />,
     name: "UI & Design Tools",
     value:
-      "Chakra, Tailwind, StoryBook, Styled Components, MUI, Figma, Illustrator",
+      "ShadeCn, Tailwind, StoryBook, Redux, Zustand, Styled Components, MUI, Chakra, Figma, Illustrator",
   },
   {
     icon: <FontAwesomeIcon icon={faCloud as IconDefinition} size={"xs"} />,

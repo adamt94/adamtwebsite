@@ -24,7 +24,9 @@ const Card: React.FC<CardProps> = ({
       className="max-w-sm rounded surface overflow-hidden shadow-lg text-left relative"
     >
       <div className="flex flex-col h-full">
-        <img className="w-full" src={image} alt="Sunset in the mountains" />
+        <div className="w-full max-h-72 overflow-hidden">
+          <img className="w-full h-full object-cover" src={image} alt={title} />
+        </div>
 
         <div className="px-6 py-4 pb-3">
           <div className="flex flex-row justify-between">
@@ -49,7 +51,9 @@ const Card: React.FC<CardProps> = ({
         <div className="flex flex-row justify-end p-5 primary-text flex-shrink">
           <a
             href={href}
+            target="_blank"
             className="inline-block tertiary rounded-full px-3 py-1 text-sm font-semibold on-tertiary-text mr-2 mb-2"
+            rel="noreferrer"
           >
             Go to site
           </a>
