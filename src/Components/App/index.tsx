@@ -1,11 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from '../Header';
-import NavBar from '../NavBar';
-import Bubbles from '../Bubbles';
-import Intro from '../Intro';
-import Projects from '../Projects';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "../Header";
+import NavBar from "../NavBar";
+import Bubbles from "../Bubbles";
+import Intro from "../Intro";
+import Projects from "../Projects";
 import {
   IconDefinition,
   IconPack,
@@ -38,10 +38,10 @@ function App() {
     return () => {
       body?.classList.remove("App");
       body?.classList.remove("dark");
-    }
+    };
   });
   return (
-    <div className="main">
+    <div className="main pb-24 bg-[#121226]">
       <Header />
       <NavBar />
       <Bubbles />

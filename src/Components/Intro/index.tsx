@@ -28,7 +28,6 @@ const stackData = [
     value: "Javascript, Typescript, Dart, Sass, HTML5",
   },
   {
-    icon: <FontAwesomeIcon icon={faPencilAlt as IconDefinition} size={"xs"} />,
     name: "UI & Design Tools",
     value:
       "ShadeCn, Tailwind, StoryBook, Redux, Zustand, Styled Components, MUI, Chakra, Figma, Illustrator",

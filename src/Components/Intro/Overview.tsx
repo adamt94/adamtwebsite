@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import profileImage from "../../images/profile-image.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Overview() {
   const textAnimate = {
@@ -31,6 +34,13 @@ export default function Overview() {
           Software engineer bulding interesting things for the web. Currently
           working at <span className="primary-text">PrettyLittleThing.</span>
         </motion.p>
+        <a href="https://github.com/adamt94" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon
+            icon={faGithub as IconDefinition}
+            size={"2x"}
+            className="secondary-text py-3 px-1"
+          />
+        </a>
       </div>
       <div className="hidden sm:block">
         <motion.div className="image-transition" variants={textAnimate}>
